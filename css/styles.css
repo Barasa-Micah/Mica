@@ -1,8 +1,4 @@
-*{
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
-}
+
 
 .logo{
     color: black;
@@ -53,7 +49,7 @@ img{
     width: 600px;
     height: auto;
     position: relative;
-    bottom:200px;
+
 }
 .cars{
     padding: 40px;
@@ -68,8 +64,33 @@ img{
     padding: 30px;
     margin-left: 30px;
 }
-.form{
+.form input{
     display: block;
     padding: 10px;
     border: 3px solid orange;
+}
+
+button{
+    background-color: orange;
+    border: 1px solid gray;
+    padding: 5px;
+    margin: 10px;
+    cursor: pointer;
+}
+.car1{ 
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 30px;
+}
+
+.container{
+    flex-direction: row;
+    gap: 50px; 
+    margin: 30px;
+    width: 40%;
+    height: 50%;
+    display: flex;
+}
+#Center{
+    text-align: center;
 }
