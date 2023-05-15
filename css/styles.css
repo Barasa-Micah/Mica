@@ -97,7 +97,7 @@ button{
 }
 .Client{ 
     text-align: center;
-    font-size: x-large;
+    font-size: large;
 }
 .Type > button > img{
     width: 50%;
@@ -122,10 +122,10 @@ button{
 .Mica{
     display: flex;
     width: 100%;
-    height: 10rem;
+    height: 30rem;
     justify-content: space-between;
     padding: 4rem;
-    margin: 4rem 2rem;
+    margin: 10rem 2rem;
     background-color: cornsilk;
 }
 .Mica .left {
@@ -151,20 +151,33 @@ body{
     width: 40rem;
     height: 12rem;
 }
+.playstore :first-child{
+    width: 20%;
+    height: 30%;
+}
 .playstore img{
     width: 40%;
-    height: 100%;
+    height: 50%;
     margin-right: 1rem;
+    
 
 }
-#Rock{
+/* #Rock{
     width: 40%;
     height: 100%;
     margin-right: 1rem;
+} */
+.mobile {
+    width: 50%;
+    height: 70rem;
 }
 .mobile img{
-    position: relative; z-index: 1;
+    position: relative; 
+    z-index: 1;
     left: -30rem;
+    height: 55rem;
+    top: -9rem;
+
 }
 .Buy{
     background-color: darkorange;
@@ -179,3 +192,4 @@ body{
     padding: 10px 15px;
     border-radius: 5px;
 }
+
