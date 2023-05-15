@@ -95,8 +95,9 @@ button{
 #Center{
     text-align: center;
 }
-h4{ 
-    
+.Client{ 
+    text-align: center;
+    font-size: x-large;
 }
 .Type > button > img{
     width: 50%;
