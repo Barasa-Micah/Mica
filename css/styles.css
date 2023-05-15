@@ -32,14 +32,14 @@ nav button{
     border-radius: 10px;
     background-color: coral;
 }
-.name button{
+/* .name button{
     padding:2px 10px;
     margin-top: 1%;
     color: black;
     background-color: darkorange;
     font-size: large;
     border-radius: 10px;
-}
+} */
 .name p{
     margin-top: 1%;
 }
@@ -69,14 +69,14 @@ img{
     padding: 10px;
     border: 3px solid orange;
 }
-
+/* 
 button{
     background-color: orange;
     border: 1px solid gray;
     padding: 5px;
     margin: 10px;
     cursor: pointer;
-}
+} */
 .car1{ 
     border: 1px solid #ccc;
     padding: 20px;
@@ -164,4 +164,17 @@ body{
 .mobile img{
     position: relative; z-index: 1;
     left: -30rem;
+}
+.Buy{
+    background-color: darkorange;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+.Rent{
+    color: orange;
+    border: 2px solid orange;
+    background: none;
+    padding: 10px 15px;
+    border-radius: 5px;
 }
