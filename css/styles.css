@@ -73,7 +73,7 @@ img{
 }
 /* 
 button{
-    background-color: orange;
+    background-color:orange;
     border: 1px solid gray;
     padding: 5px;
     margin: 10px;
@@ -138,6 +138,7 @@ button{
 footer{
     position: relative;
     top: 80rem;
+    display: block;
 }
 .Mica .mobile{
     width: 50%;
@@ -193,4 +194,10 @@ body{
     background: none;
     padding: 10px 15px;
     border-radius: 5px;
+}
+.Subscribe{
+    display: block;
+}
+.col{
+    display: block;
 }
