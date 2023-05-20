@@ -1,27 +1,49 @@
-logo{
+
+
+/* .logo{
     color: black;
     font-size: x-large;
     font-weight: bold;
+} */
+*{
+    font-weight: 600;
+    margin: 10px;
 }
+h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+h2{
+    font-size: 35px;
+    font-weight: 700px;
+}
+
+
 nav{
     height: 100px;
     width: 100%;
     justify-content: space-between;
-    padding: 70px;
+    /* padding: 70px; */
     display: flex;
 }
 nav ul li{
     display: inline-block;
-    list-style-type: none;
+    list-style: none;
     padding: 10px;
     color: black;
 }
+nav ul li a{
+    text-decoration: none;
+}
+
 ul li a:hover{
     color: darkorange;
 }
-.name{
+/* .name{
     margin: 40px;
-}
+    display: flex;
+    justify-content: space-between;
+} */
 ul li a{
     color: black;
 }
@@ -38,31 +60,37 @@ nav button{
     font-size: large;
     border-radius: 10px;
 } */
-.name p{
+/* .name p{
     margin-top: 1%;
-}
-img{
+} */
+/* img{
     float: right;
     margin-right: 30px;
-    width: 600px;
+    width: 450px;
     height: auto;
     position: relative;
 
-}
+} */
 .cars{
-    padding: 40px;
+    padding: 2px 40px 0 10px;
+    margin: 10px 0 100px 0px;
+    
+
 }
 .head{
     padding: 40px;
     color: black;
 }
-.Vehicles{
+.info{
+    background-color: orange;
+}
+/* .Vehicles{
     display: flex;
     justify-content: space-between;
     padding: 30px;
     margin-left: 30px;
     margin-top: -50%;
-}
+} */
 .form input{
     display: block;
     padding: 10px;
@@ -71,12 +99,17 @@ img{
 }
 
 button{
-    background-color:orange;
     border: 1px solid gray;
     padding: 5px;
     margin: 10px;
     cursor: pointer;
+    border-radius: 5px;
+ 
 }
+.button{
+    box-shadow: 2px 5px 5px gray;
+}
+
 .car1{ 
     border: 1px solid #ccc;
     padding: 20px;
@@ -96,7 +129,7 @@ button{
     text-align: center;
 }
 .Client{ 
-    text-align: center;
+    text-align: left;
     font-size: large;
 }
 .Type > button > img{
@@ -109,36 +142,38 @@ button{
     height: 30px;
     display: flex;
     margin: 2rem;
+    align-items: center;
+    justify-content: space-around;
+    gap: 15px;
 }
 .Type{
     display: flex;
     height: 1rem;
     width: 100%;
+    gap: 50px;
 }
 .navlinks{
     width: 50%;
     height: 1rem;
 }
-.Mica{
-    display: flex;
-    width: 100%;
-    height: 30rem;
-    justify-content: space-between;
-    padding: 4rem;
-    margin: 10rem 2rem;
-    background-color: cornsilk;
+.container .happy p{
+    text-align: center;
 }
-.Mica .left {
+
+    /* #java{
+        margin: -30px 0 -20px 150px;
+} */
+/* .Mica .left {
     width: 50%;
     height: 100%;
     padding: 1rem 0 1rem 35rem;
-}
-footer{
+} */
+/* footer{
     position: relative;
     top: 80rem;
     display: block;
-}
-.Mica .mobile{
+} */
+/* .Mica .mobile{
     width: 50%;
     height: 100%;
     
@@ -159,7 +194,7 @@ footer{
     margin-right: 1rem;
     
 
-}
+} */
 /* #Rock{
     width: 40%;
     height: 100%;
@@ -197,8 +232,52 @@ footer{
     display: flex;
     padding: 10px;
     border: 3px solid orange;
+    border-radius: 5px;
 }
 
-#grow{
-    background-color:orange;
+.mica{
+    background-color: rgb(255, 253, 197);
+    display: flex;
+    height: 240px;
+    gap: 100px;
+    padding: 5px;
+    justify-content: center;
+    box-shadow: 5px 6px 5px gray;
+    margin: 20px 0 20px 0;
+
+}
+.googleplay{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ 
+
+}
+#rental{
+    margin: -40px 20px -30px 160px;
+}
+
+.Vehicles{
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+}
+.Vehicles li {
+    list-style: none;
+}
+.Vehicles li ul li{
+    list-style: circle;
+}
+.col input{
+    margin: 5px;
+}
+.name{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0px 0px 5px;
+}
+.micah{
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
 }
