@@ -1,208 +1,201 @@
+*{padding:0;
+    margin:0;}
 
+*:root{
+    --orange: rgb(255, 115, 0);
+    --shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
 
-.logo{
-    color: black;
-    font-size: x-large;
+*{
+    border-radius: 10px;
     font-weight: bold;
 }
-nav{
-    height: 100px;
-    width: 100%;
+body {
+    margin: 40px;
+    padding: 10px;
+    font-size: 25px;
+}
+
+.header {
+    display: flex;
     justify-content: space-between;
-    padding: 70px;
+    align-items: center;
+}
+h3{
+    font-size: 18px;
+}
+.header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
     display: flex;
 }
-nav ul li{
-    display: inline-block;
-    list-style-type: none;
-    padding: 10px;
-    color: black;
-}
-ul li a:hover{
-    color: darkorange;
-}
-.name{
-    margin: 40px;
-}
-ul li a{
-    color: black;
-}
-nav button{
-    padding: 2px 20px;
-    border-radius: 10px;
-    background-color: coral;
-}
-/* .name button{
-    padding:2px 10px;
-    margin-top: 1%;
-    color: black;
-    background-color: darkorange;
-    font-size: large;
-    border-radius: 10px;
-} */
-.name p{
-    margin-top: 1%;
-}
-img{
-    float: right;
-    margin-right: 30px;
-    width: 600px;
-    height: auto;
-    position: relative;
 
+.header ul li {
+    padding: 30px;
 }
-.cars{
-    padding: 40px;
+
+.header ul li:hover{
+    box-shadow: 5px 5px 5px gray;
+    background-color: var(--orange);
+    margin: 2px;
 }
-.head{
-    padding: 40px;
-    color: black;
+
+.header ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
 }
-.Vehicles{
+ul{
+    list-style: none;
+}
+
+
+
+.list3{
     display: flex;
     justify-content: space-between;
     padding: 30px;
-    margin-left: 30px;
-    margin-top: -50%;
 }
-.form input{
-    display: block;
+form input{
+    border: 3px solid var(--orange);
+    display: flex;
     padding: 10px;
-    border: 3px solid orange;
-    padding-bottom: -70px;
+    margin: 5px;
 }
 
-button{
-    background-color:orange;
-    border: 1px solid gray;
-    padding: 5px;
-    margin: 10px;
-    cursor: pointer;
+#getstarted{
+    background-color: var(--orange);
 }
+
+
+.image-icons {
+    width:25px;
+    height:25px;
+}
+#two ul {
+    list-style: none;
+    display: flex;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+#two li {
+    margin: 0 10px; 
+    padding: 20px;
+}
+
+
 .car1{ 
     border: 1px solid #ccc;
     padding: 20px;
     margin: 30px;
 }
-
 .container{
+    display: flex;
     flex-direction: row;
     gap: 50px; 
     margin: 30px;
-    width: 40%;
-    height: 50%;
-    display: flex;
-    
 }
-#Center{
-    text-align: center;
+button{
+    background-color: var(--orange);
+    border:none;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
 }
-.Client{ 
-    text-align: center;
-    font-size: large;
-}
-.Type > button > img{
-    width: 50%;
-    height: 70%;
 
+
+.name{
+    text-align: center;
 }
-.Type > button{
-    width: 120px;
-    height: 30px;
-    display: flex;
-    margin: 2rem;
-}
-.Type{
-    display: flex;
-    height: 1rem;
-    width: 100%;
-}
-.navlinks{
-    width: 50%;
-    height: 1rem;
-}
-.Mica{
-    display: flex;
+.download{
+    height: 250px;
     width: 90%;
-    height:250px;
+    background-color: rgb(255, 254, 198);
+    box-shadow: 5px 6px 5px gray;
+    display: flex;
     justify-content: center;
     padding: 5px;
-    background-color: cornsilk;
-    
-    #java{
-        margin: -30px 0 -20px 150px;
+    gap:100px;
 }
-.Mica .left {
-    width: 50%;
-    height: 100%;
-    padding: 1rem 0 1rem 35rem;
-}
-footer{
-    position: relative;
-    top: 80rem;
-    display: block;
-}
-.Mica .mobile{
-    width: 50%;
-    height: 100%;
-    
+#downloads3{
+    margin: -30px 0 -20px 150px;
 
 }
-.playstore{
-    display: flex;
-    width: 40rem;
-    height: 12rem;
-}
-.playstore :first-child{
-    width: 20%;
-    height: 30%;
-}
-.playstore img{
-    width: 40%;
-    height: 50%;
-    margin-right: 1rem;
-    
 
+.button-buy{
+    background:var(--orange);
+    border:none;
+    padding:10px 15px;
+    border-radius:5px;
 }
-/* #Rock{
-    width: 40%;
-    height: 100%;
-    margin-right: 1rem;
-} */
-.mobile {
-    width: 50%;
-    height: 70rem;
-}
-.mobile img{
-    position: relative; 
-    z-index: 1;
-    left: -30rem;
-    height: 55rem;
-    top: -9rem;
-
-}
-.Buy{
-    background-color: darkorange;
-    border: none;
-    padding: 10px 15px;
-    border-radius: 5px;
-}
-.Rent{
-    color: orange;
-    border: 2px solid orange;
+.button-rent{
+    color:var(--orange);
+    border:2px solid var(--orange);
     background: none;
-    padding: 10px 15px;
-    border-radius: 5px;
-}
-.Subscribe{
-    display: block;
-}
-.col input{
-    display: flex;
-    padding: 10px;
-    border: 3px solid orange;
+    padding:10px 15px;
+    border-radius:5px;
 }
 
-#grow{
-    background-color:orange;
+.one{
+    display:flex;
+    justify-content: space-between;
+}
+
+.types{
+    width:120px;
+    height:35px;
+    gap:10px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: var(--shadow);
+    background-color: transparent;
+}
+
+#two ul li:first-child button{
+    background-color: var(--orange);
+    border:none;
+}
+
+.clients{
+    text-align: left;
+
+}
+
+.clients p{
+    font-size: 15px;
+}
+
+.download .txt{
+    width:300px;
+
+}
+
+.download h1{
+    font-size: larger;
+}
+
+.download .imgs{
+    display:flex;
+    padding:0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.download .first{
+    height:fit-content;
+}
+.person{
+    display: flex;
+    justify-content: space-between;
+}
+.list3 ul li{
+    list-style: circle;
 }
